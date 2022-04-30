@@ -1,0 +1,9 @@
+.vercel
+
+/node_modules
+
+/dist
+/public
+
+/contract/market-contract/target
+/contract/nft-plant-tree-contract/target

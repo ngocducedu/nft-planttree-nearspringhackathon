@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+body {
+    font-family: "Roboto Slab",sans-serif;
+}
+
+.site-layout-sub-header-background {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.site-layout-background {
+    background: #ebf7ed;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: #b6dbba;
+    height: 85px;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    align-items: center;
+    left: 25px;
+    top: 25px;
+}
+
+.list-item{
+    width: 50%;
+}
+
+.menu-item {
+    /* background-color: #469b4f; */
+    border-bottom: 0px solid #f0f0f0;
+    font-size: 18px;
+    display: flex;
+    list-style-type: none;
+    font-family: "Roboto Slab",sans-serif;
+}
+
+.list-item-li {
+    flex: 1;
+    
+}
+
+.list-item-li:hover {
+    opacity: 0.8;
+   }
+
+.text-white {
+    --tw-text-opacity: 1 !important;
+    color: rgb(5, 116, 73);
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.login{
+    background-color: transparent;
+    border-width: 2px;
+    line-height: inherit;
+    border-color: #f0f0f0;
+}
+
+.login:hover{
+    background-color: transparent;
+    opacity: 0.8;
+    border-width: 2px;
+    line-height: inherit;
+    border-color: #e2f5e2;
+}
+
+.mint {
+    /* background-image: url("./assets/background.jpg"); */
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.click-mint{
+    margin-left: 45%;
+}
+
+.ticket {
+    flex: 1 1 auto;
+    padding: 0rem 1rem;
+}
+
+.ticket-tts{
+    text-align: center!important;
+    color: #469b4f;
+    font-size: 29px;
+    font-family: 'Poppins' !important;
+    font-weight: 600;
+}
+
+.ticket-near{
+    text-decoration: none !important;
+    background-image: linear-gradient(to right, rgb(45, 245, 95) 0%, rgb(7, 184, 45) 15%, rgb(5, 116, 73) 85%, rgb(20, 150, 48) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-family: 'Poppins' !important;
+    text-align: center!important;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.ticket-link{
+    text-align: center!important;
+}
+
+.ticket-guild {
+    text-align: center!important;
+    color: #12c002;
+}
+
+
+.ant-carousel .slick-dots li button {
+    display: block;
+    width: 100%;
+    height: 3px;
+    padding: 0;
+    color: transparent;
+    font-size: 0;
+    background: #3a935e;
+    /* border: 0; */
+    border-radius: 1px;
+    outline: none;
+    cursor: pointer;
+    opacity: 0.3;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: #56bd61;
+}
